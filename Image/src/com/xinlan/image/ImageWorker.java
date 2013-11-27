@@ -412,6 +412,9 @@ public abstract class ImageWorker {
 		}
 	}
 
+	/**
+	 * ≥ı ºªØª∫¥Ê
+	 */
 	protected void initDiskCacheInternal() {
 		if (mImageCache != null) {
 			mImageCache.initDiskCache();
@@ -434,6 +437,7 @@ public abstract class ImageWorker {
 		if (mImageCache != null) {
 			mImageCache.close();
 			mImageCache = null;
+			System.gc();
 		}
 	}
 

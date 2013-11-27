@@ -324,8 +324,6 @@ public final class DiskLruCache implements Closeable {
                         IO_BUFFER_SIZE);
                 return cache;
             } catch (IOException journalIsCorrupt) {
-//                System.logW("DiskLruCache " + directory + " is corrupt: "
-//                        + journalIsCorrupt.getMessage() + ", removing");
                 cache.delete();
             }
         }

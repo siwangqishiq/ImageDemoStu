@@ -13,6 +13,6 @@ public class MainActivity extends FragmentActivity {
         setContentView(R.layout.activity_main);
         mImageFetcher = ImageFetcher.genImageFetcher(this, R.drawable.ic_launcher);
         img = (ImageView)findViewById(R.id.img);
-        mImageFetcher.loadImage("http://i879.photobucket.com/albums/ab352/night_king/sign/01438667.png", img);
+        mImageFetcher.loadImage("http://wenwen.soso.com/p/20090523/20090523121434-253152141.jpg", img);
     }
 }//end class

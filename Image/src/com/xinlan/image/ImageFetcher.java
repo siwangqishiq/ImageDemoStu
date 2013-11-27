@@ -179,7 +179,7 @@ public class ImageFetcher extends ImageResizer {
     }
 
     /**
-    * Simple network connection check.
+    * 检查网络是否连接
     *
     * @param context
     */
